@@ -26,8 +26,7 @@ const Chatbot = () => {
 
     try {
       // Update local state with user's message
-      const randomNumber = 999999;
-      const lolo = "hahahah";
+
       setMessages((prevMessages) => [
         ...prevMessages,
         { text: inputText, sender: "user" },
