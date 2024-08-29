@@ -27,6 +27,10 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
+  function newFunc() {
+    console.log("hello this is just a test function");
+  }
+
   const logout = () => {
     sessionStorage.clear();
     setIsAuthenticated(false);
