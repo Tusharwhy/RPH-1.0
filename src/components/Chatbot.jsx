@@ -21,6 +21,11 @@ const Chatbot = () => {
   function whichMakesNoSense(value) {
     return value;
   }
+
+  function newFunc() {
+    console.log("hello this is just a test function");
+  }
+
   const handleSendMessage = async () => {
     if (inputText.trim() === "") return;
 
